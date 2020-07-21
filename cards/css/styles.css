@@ -1,0 +1,164 @@
+body {
+  background:  #dffff0;
+  font-family: "Roboto";
+}
+
+.container {
+  display: flex;
+}
+
+.box{
+  width: 300px;
+  height: 300px;
+  margin: 200px auto;
+  background: #c232f0;
+  box-shadow: 5px 5px 10px #6de330, -5px -5px -10px #fffefe;
+
+}
+
+.card   {
+  margin: 60px;
+  border-bottom-left-radius:  40%;
+  border-top-right-radius: 40%;
+
+}
+
+.color   {
+  width: 120px;
+  height: 120px;
+  background: rgba(146, 7, 238, 0.74);
+  box-shadow: 5px, 5px, 10px, #bbbbb2, -8px -8px 10px #ffffff;
+  border-bottom-right-radius: 85px;
+  border-top-left-radius: 20px;
+  position: fixed;
+
+}
+.circle   {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #fefff0;
+  box-shadow: 5px 5px 10px #7c567a7f, -5px -5px 10px #f3f0f0;
+  position: relative;
+  top: -45px;
+  left: -29px;
+
+}
+.circle   h1 {
+  text-align: center;
+  padding-top:  40px;
+  color:  rgba( 146, 7, 238, 0.74);
+
+}
+.content  {
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  margin: 110px 50px;
+
+}
+.content img {
+  width: 90px;
+  height: 80px;
+  margin-top: auto;
+  margin-bottom: 5px;
+
+
+}
+
+.content h4 {
+  margin: 5px 0 0 40px;
+  text-align: center;
+  padding: 5px;
+  text-transform: uppercase;
+
+}
+
+.effect-1:hover {
+  background-color: rgba(226, 10, 128, 0.74);
+  color: white;
+  cursor: pointer;
+}
+
+.shadow {
+  box-shadow: 5px 5px #6de330;
+
+}
+
+.content p {
+  text-align: center;
+  font-size: 10px;
+  margin-left: 30px;
+
+}
+
+/* Container Two */
+
+.box2 {
+  width: 300px;
+  height: 300px;
+  margin:60px -20px;
+  margin-left: 500px;
+  background: #d2df20;
+  box-shadow: 5px 5px 10px #6de330, -5px -5px -10px #fffefe;
+
+}
+
+.card2   {
+  margin: 60px;
+  border-bottom-left-radius:  40%;
+  border-top-right-radius: 40%;
+  position: fixed;
+}
+
+.shadow2 {
+  box-shadow: 5px 5px #fde330;
+
+}
+
+.color2   {
+  width: 120px;
+  height: 120px;
+  background: rgba(146, 7, 238, 0.74);
+  box-shadow: 5px, 5px, 10px, #bbbbb2, -8px -8px 10px #ffffff;
+  border-bottom-right-radius: 85px;
+  border-top-left-radius: 20px;
+  position: fixed;
+
+}
+
+.box-rec {
+  width: 400px;
+  height: 250px;
+  margin:  100px 70px;
+  background:  #4efff0;
+  box-shadow: 5px 5px 10px #ff32d0,  -5px 5px 10px #0dfefe;
+
+}
+
+.card-rec {
+  margin: 80px;
+  border-bottom-left-radius:  40%;
+  border-top-right-radius: 40%;
+  position: fixed;
+}
+
+.card-content {
+  margin-top: 85px;
+  font-size: 10px;
+  text-align: center;
+
+}
+
+.richard {
+    font-family: "Pacifico", cursive;
+    font-size: 20px;
+    color: blue;
+
+}
+
+.jobTitle {
+  margin-bottom:5px;
+  font-size: 12px;
+  text-align: center;
+}
